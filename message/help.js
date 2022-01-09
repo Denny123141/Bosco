@@ -203,7 +203,7 @@ exports.rulesBot = (prefix) => {
 ᴛᴏ ᴜsᴇ ʙᴏᴛ ${prefix}ᴍᴇɴᴜ
 
 ᴏᴡɴᴇʀ ʙᴏᴛ:
-wa.me/6587255582
+wa.me/6282133048747
 `
 }
 exports.Menu = (prefix) => {
@@ -378,9 +378,6 @@ return `
 ╠➤ ${prefix}runtime
 ╠➤ ${prefix}donasi
 ╠➤ ${prefix}leaderboard
-╠➤ ${prefix}cekpremium
-╠➤ ${prefix}listpremium
-╠➤ ${prefix}sourcecode
 ╠➤ ${prefix}bugreport *keluhan*
 ╚════════════════❥︎
 
