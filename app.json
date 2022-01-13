@@ -1,7 +1,21 @@
 {
-  "name": "whatsapp-bot",
-  "description": "whatsapp bot build with nodejs",
-  "repository": "https://github.com/pepesir/Bosco",
-  "logo": "https://c.top4top.io/p_2069qnvob1.jpg",
-  "keywords": ["nodejs", "bot", "whatsapp bot", "whatsapp automation"],
+  "name": "Bot WhatsApp",
+  "description": "Very simple bot whatsapp with the javascript.",
+  "repository": "https://github.com/Denny123141/Bosco",
+  "logo": "https://github.com/Denny123141/Haruka/blob/master/settings/thumbnail_2.jpg",
+  "keywords": [
+    "node",
+    "WhatsApp",
+    "bot"
+  ],
+  "image": "heroku/nodejs",
+  "buildpacks": [
+    {
+      "url": "heroku/nodejs"
+    },{
+        "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest"
+    },{
+        "url": "https://github.com/clhuang/heroku-buildpack-webp-binaries.git"
+    }
+  ]
 }
